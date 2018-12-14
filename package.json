@@ -1,0 +1,35 @@
+{
+	"name": "pokelab",
+	"version": "1.0.0",
+	"description": "",
+	"main": "./dist/cjs/index.js",
+	"types": "./dist/cjs/index.d.ts",
+	"module": "./dist/es/index.js",
+	"scripts": {
+		"build:cjs": "tsc -p tsconfig.cjs.json",
+		"build:es": "tsc -p tsconfig.es.json",
+		"build": "rimraf dist && npm run build:cjs && npm run build:es",
+		"test": "jest",
+		"prettier": "prettier **/*.ts **/*.json **/*.md !dist/**/*",
+		"tslint": "tslint src/**/*.ts",
+		"check-code": "npm run tslint && npm run prettier -- -l",
+		"fix-code": "npm run tslint -- --fix && npm run prettier -- --write",
+		"prepublishOnly": "npm run check-code && npm run test && npm run build"
+	},
+	"author": "Sergio Morchón Poveda",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/SergioMorchon/pokelab"
+	},
+	"license": "ISC",
+	"devDependencies": {
+		"@types/jest": "^23.3.10",
+		"jest": "^23.6.0",
+		"prettier": "^1.15.3",
+		"rimraf": "^2.6.2",
+		"ts-jest": "^23.10.5",
+		"tslint": "^5.11.0",
+		"tslint-config-prettier": "^1.17.0",
+		"typescript": "^3.2.2"
+	}
+}
