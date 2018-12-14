@@ -194,7 +194,6 @@ export const All: ReadonlyArray<Pokemon> = [
 		nationalNumber: 19,
 		stats: [30, 56, 35, 25, 35, 72],
 		types: ['Dark', 'Normal'],
-		variant: 'Alolan Rattata',
 	},
 	{
 		name: 'Raticate',
@@ -209,7 +208,6 @@ export const All: ReadonlyArray<Pokemon> = [
 		nationalNumber: 20,
 		stats: [75, 71, 70, 40, 80, 77],
 		types: ['Dark', 'Normal'],
-		variant: 'Alolan Raticate',
 	},
 	{
 		name: 'Spearow',
@@ -261,7 +259,6 @@ export const All: ReadonlyArray<Pokemon> = [
 		nationalNumber: 26,
 		stats: [60, 85, 50, 95, 85, 110],
 		types: ['Electric', 'Psychic'],
-		variant: 'Alolan Raichu',
 	},
 	{
 		name: 'Sandshrew',
@@ -276,7 +273,6 @@ export const All: ReadonlyArray<Pokemon> = [
 		nationalNumber: 27,
 		stats: [50, 75, 90, 10, 35, 40],
 		types: ['Ice', 'Steel'],
-		variant: 'Alolan Sandshrew',
 	},
 	{
 		name: 'Sandslash',
@@ -291,7 +287,6 @@ export const All: ReadonlyArray<Pokemon> = [
 		nationalNumber: 28,
 		stats: [75, 100, 120, 25, 65, 65],
 		types: ['Ice', 'Steel'],
-		variant: 'Alolan Sandslash',
 	},
 	{
 		name: 'Nidoran♀',
@@ -354,7 +349,6 @@ export const All: ReadonlyArray<Pokemon> = [
 		nationalNumber: 37,
 		stats: [38, 41, 40, 50, 65, 65],
 		types: ['Ice'],
-		variant: 'Alolan Vulpix',
 	},
 	{
 		name: 'Ninetales',
@@ -369,7 +363,6 @@ export const All: ReadonlyArray<Pokemon> = [
 		nationalNumber: 38,
 		stats: [73, 67, 75, 81, 100, 109],
 		types: ['Ice', 'Fairy'],
-		variant: 'Alolan Ninetales',
 	},
 	{
 		name: 'Jigglypuff',
@@ -450,7 +443,6 @@ export const All: ReadonlyArray<Pokemon> = [
 		nationalNumber: 50,
 		stats: [10, 55, 30, 35, 45, 90],
 		types: ['Ground', 'Steel'],
-		variant: 'Alolan Diglett',
 	},
 	{
 		name: 'Dugtrio',
@@ -465,7 +457,6 @@ export const All: ReadonlyArray<Pokemon> = [
 		nationalNumber: 51,
 		stats: [35, 100, 60, 50, 70, 110],
 		types: ['Ground', 'Steel'],
-		variant: 'Alolan Dugtrio',
 	},
 	{
 		name: 'Meowth',
@@ -480,7 +471,6 @@ export const All: ReadonlyArray<Pokemon> = [
 		nationalNumber: 52,
 		stats: [40, 35, 35, 50, 40, 90],
 		types: ['Dark'],
-		variant: 'Alolan Meowth',
 	},
 	{
 		name: 'Persian',
@@ -495,7 +485,6 @@ export const All: ReadonlyArray<Pokemon> = [
 		nationalNumber: 53,
 		stats: [65, 60, 60, 75, 65, 115],
 		types: ['Dark'],
-		variant: 'Alolan Persian',
 	},
 	{
 		name: 'Psyduck',
@@ -637,7 +626,6 @@ export const All: ReadonlyArray<Pokemon> = [
 		nationalNumber: 74,
 		stats: [40, 80, 100, 30, 30, 20],
 		types: ['Rock', 'Electric'],
-		variant: 'Alolan Geodude',
 	},
 	{
 		name: 'Graveler',
@@ -652,7 +640,6 @@ export const All: ReadonlyArray<Pokemon> = [
 		nationalNumber: 75,
 		stats: [55, 95, 115, 45, 45, 35],
 		types: ['Rock', 'Electric'],
-		variant: 'Alolan Graveler',
 	},
 	{
 		name: 'Golem',
@@ -667,7 +654,6 @@ export const All: ReadonlyArray<Pokemon> = [
 		nationalNumber: 76,
 		stats: [80, 120, 130, 55, 65, 45],
 		types: ['Rock', 'Electric'],
-		variant: 'Alolan Golem',
 	},
 	{
 		name: 'Ponyta',
@@ -755,7 +741,6 @@ export const All: ReadonlyArray<Pokemon> = [
 		nationalNumber: 88,
 		stats: [80, 80, 50, 40, 50, 25],
 		types: ['Poison', 'Dark'],
-		variant: 'Alolan Grimer',
 	},
 	{
 		name: 'Muk',
@@ -770,7 +755,6 @@ export const All: ReadonlyArray<Pokemon> = [
 		nationalNumber: 89,
 		stats: [105, 105, 75, 65, 100, 50],
 		types: ['Poison', 'Dark'],
-		variant: 'Alolan Muk',
 	},
 	{
 		name: 'Shellder',
@@ -870,7 +854,6 @@ export const All: ReadonlyArray<Pokemon> = [
 		nationalNumber: 103,
 		stats: [95, 105, 85, 125, 75, 45],
 		types: ['Grass', 'Dragon'],
-		variant: 'Alolan Exeggutor',
 	},
 	{
 		name: 'Cubone',
@@ -891,7 +874,6 @@ export const All: ReadonlyArray<Pokemon> = [
 		nationalNumber: 105,
 		stats: [60, 80, 110, 50, 80, 45],
 		types: ['Fire', 'Ghost'],
-		variant: 'Alolan Marowak',
 	},
 	{
 		name: 'Hitmonlee',
