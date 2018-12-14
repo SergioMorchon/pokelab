@@ -14,11 +14,6 @@ test('Find nature', () => {
 	expect(findNature(SpecialAttack, Attack)).toBe(Modest);
 });
 
-test('Get name', () => {
-	expect(getName(Modest, English)).toBe('Modest');
-	expect(getName(Modest, Spanish)).toBe('Modesta');
-});
-
 test('All natures are named for every language', () => {
 	for (const language of AllLanguages) {
 		for (const nature of AllNatures) {
