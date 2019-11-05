@@ -1,7 +1,0 @@
-src
-.travis.yml
-.prettierrc
-jest.config.js
-tslint.json
-tsconfig*.json
-pokelab-*.tgz
